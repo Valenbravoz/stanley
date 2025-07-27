@@ -1,0 +1,39 @@
+.seccion-form {
+
+    padding: 32px 16px;
+
+    .label-form {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        text-align: left;
+
+        .imput-form {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #333;
+
+            .btn-enviar {
+                background-color: black;
+                color: white;
+                padding: 8px 24px;
+                border: none;
+                border-radius: 8px;
+                margin-top: 16px;
+
+                &:hover {
+                    background-color: beige;
+                    color: black;
+
+                }
+
+
+            }
+
+
+
+        }
+
+    }
+}
+

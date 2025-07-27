@@ -1,0 +1,32 @@
+.banner {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar-mio {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 24px;
+    border-bottom: 2px solid black;
+
+    .navbar-nav {
+
+        margin: 0 auto;
+
+        .nav-link-mio {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+            transition: color 0.3s;
+
+            &:hover {
+                color: rgb(150, 150, 150);
+            }
+        }
+
+
+    }
+
+}
+

@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar-mio {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 24px;
+  border-bottom: 2px solid black;
+}
+.navbar-mio .navbar-nav {
+  margin: 0 auto;
+}
+.navbar-mio .navbar-nav .nav-link-mio {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: color 0.3s;
+}
+.navbar-mio .navbar-nav .nav-link-mio:hover {
+  color: rgb(150, 150, 150);
+}
+
+body {
+  font-family: "Protest Strike", sans-serif;
+  background-color: rgb(138, 134, 134);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+  margin-top: 80px;
+}
+
+.h2-general {
+  text-align: center;
+  color: beige;
+}
+
+.logo-stanley {
+  display: block;
+  margin: 32px auto;
+  height: 220px;
+  width: 440px;
+}
+
+.logo-redes {
+  height: 20%;
+  width: 20%;
+}
+
+.bloque-nosotros {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-items: center;
+  padding: 24px;
+}
+
+.info-nosotros {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.h1-nosotros {
+  font-size: 80px;
+  color: antiquewhite;
+}
+
+.bloque-condiciones {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-items: center;
+  padding: 24px;
+}
+
+.info-condiciones {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.h4-condiciones {
+  font-size: 16px;
+  text-align: center;
+  color: beige;
+  margin-top: 32px;
+  background-color: rgb(192, 191, 190);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.h3-redes {
+  color: beige;
+  text-align: center;
+  background-color: black;
+  padding: 16px;
+}
+
+.seccion-contacto {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.redes {
+  margin: 48px auto;
+  padding: 32px 0;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  gap: 16px;
+}
+
+.red img {
+  width: 48px;
+  height: 48px;
+}
+
+.red a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.p-contactanos {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.seccion-form {
+  padding: 32px 16px;
+}
+.seccion-form .label-form {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+.seccion-form .label-form .imput-form {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333;
+}
+.seccion-form .label-form .imput-form .btn-enviar {
+  background-color: black;
+  color: white;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.seccion-form .label-form .imput-form .btn-enviar:hover {
+  background-color: beige;
+  color: black;
+}
+
+.container-productos {
+  margin: 40px auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.container-productos .producto-item {
+  background-color: antiquewhite;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.botonera {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.p-productos {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+/* productos de las img */
+.img-productos {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.btn-comprar {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 8px 24px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.btn-comprar:hover {
+  color: rgb(129, 134, 99);
+}
+
+.destacados {
+  gap: 32px;
+  padding: 32px 16px;
+  margin: 32px auto;
+}
+
+.destacados .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 32px;
+}
+
+.card-producto {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.card-button {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 16px;
+}
+
+.card-producto img {
+  width: 95%;
+  border-radius: 4px;
+}
+
+.card-producto h5 {
+  margin: 16px 0;
+  background-color: rgb(240, 240, 240);
+  border: 1px;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-producto p {
+  color: rgb(5, 8, 6);
+  text-align: center;
+  font-size: 16px;
+}
+
+.p-destacados {
+  text-align: center;
+  color: rgb(255, 248, 248);
+}
+
+footer {
+  background-color: rgb(97, 100, 95);
+  text-align: center;
+}
+
+.img-footer {
+  width: 100px;
+  height: auto;
+  margin: 16px auto;
+  display: block;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+.img-footer:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */

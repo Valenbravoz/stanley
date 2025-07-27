@@ -1,0 +1,46 @@
+.h3-redes {
+    color: beige;
+    text-align: center;
+    background-color: black;
+    padding: 16px;
+
+}
+
+.seccion-contacto {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.redes {
+    margin: 48px auto;
+    padding: 32px 0;
+}
+
+.red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+}
+
+.red img {
+    width: 48px;
+    height: 48px;
+}
+
+.red a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.p-contactanos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}

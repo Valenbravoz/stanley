@@ -1,0 +1,32 @@
+@use "../utilities/variables";
+
+body {
+  font-family: "Protest Strike", sans-serif;
+  background-color: rgb(138, 134, 134);
+}
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Protest Strike", sans-serif;
+  margin-top: 80px;
+}
+
+.h2-general {
+  text-align: center;
+  color: beige;
+}
+
+.logo-stanley {
+  display: block;
+  margin: 32px auto;
+  height: 220px;
+  width: 440px;
+}
+
+.logo-redes {
+    height: 20%;
+    width: 20%; 
+ } 

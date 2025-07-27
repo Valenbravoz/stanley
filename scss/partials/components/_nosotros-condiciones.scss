@@ -1,0 +1,52 @@
+//info de nosotros y terminos y condiciones 
+
+.bloque-nosotros {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-items: center;
+  padding: 24px;
+}
+
+.info-nosotros {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.h1-nosotros {
+  font-size: 80px;
+  color: antiquewhite;
+}
+
+.bloque-condiciones {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-items: center;
+  padding: 24px;
+}
+
+.info-condiciones {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.h4-condiciones {
+  font-size: 16px;
+  text-align: center;
+  color: beige;
+  margin-top: 32px;
+  background-color: rgb(192, 191, 190);
+  padding: 16px;
+  border-radius: 8px;
+}
