@@ -36,6 +36,8 @@
 
 /* productos de las img */
 .img-productos {
+    display: block;
+    object-fit: contain;
     height: 100%;
     max-width: 100%;
 
@@ -55,6 +57,8 @@
 }
 
 // carrusel
+
+
 .carousel {
     position: relative;
     width: 100%;
@@ -62,17 +66,17 @@
     overflow: hidden;
 
     .carousel-inner {
-    border-radius: 8px;
+        border-radius: 8px;
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-    @extend %boton-control-carrusel;
+        @extend %boton-control-carrusel;
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-    @extend %icono-flecha-carrusel;
+        @extend %icono-flecha-carrusel;
     }
 }
 

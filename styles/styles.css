@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
 }
 
 .banner {
@@ -225,6 +224,8 @@ h1 {
 
 /* productos de las img */
 .img-productos {
+  display: block;
+  object-fit: contain;
   height: 100%;
   max-width: 100%;
 }
