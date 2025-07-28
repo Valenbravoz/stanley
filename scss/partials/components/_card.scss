@@ -1,5 +1,6 @@
 @use "../utilities/mixins";
 @use "../utilities/variables";
+@use "../utilities/extends";
 
 .container-productos {
     margin: 40px auto;
@@ -7,7 +8,7 @@
     @include mixins.flex (column, center, center);
 
     .producto-item {
-        background-color: rgb(207, 207, 185) ;
+        background-color: rgb(207, 207, 185);
         padding: 16px;
         border: 1px solid variables.$solid-black;
         border-radius: 8px;
@@ -29,8 +30,8 @@
 
 .p-productos {
     text-align: center;
-    color: #000000 ;
-    font-size : 24px;
+    color: #000000;
+    font-size: 24px;
 }
 
 /* productos de las img */
@@ -61,18 +62,17 @@
     overflow: hidden;
 
     .carousel-inner {
-        border-radius: 8px;
+    border-radius: 8px;
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-        width: 15%;
+    @extend %boton-control-carrusel;
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        filter: invert(1);
-        scale: 0.8;
+    @extend %icono-flecha-carrusel;
     }
 }
 
@@ -93,12 +93,12 @@
 }
 
 .card-producto {
-    background-color:variables.$color-fondo;
+    background-color: variables.$color-fondo;
     padding: 16px;
     border: 1px solid variables.$solid-black;
     border-radius: 8px;
     width: 216px;
-    @include mixins.flex (column,center, center );
+    @include mixins.flex (column, center, center);
     text-align: center;
     gap: 8px;
 }
@@ -112,7 +112,7 @@
     border-radius: 5px;
     margin: 16px;
 
-    &:hover{
+    &:hover {
         color: variables.$color-hover;
     }
 }

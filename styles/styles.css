@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 1px solid red;
 }
 
 .banner {
@@ -177,6 +178,17 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  width: 15%;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  filter: invert(1);
+  scale: 0.8;
+}
+
 .container-productos {
   margin: 40px auto;
   padding: 16px;
@@ -238,16 +250,6 @@ h1 {
 .carousel .carousel-inner {
   border-radius: 8px;
 }
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next {
-  width: 15%;
-}
-.carousel .carousel-control-prev-icon,
-.carousel .carousel-control-next-icon {
-  filter: invert(1);
-  scale: 0.8;
-}
-
 .destacados {
   gap: 32px;
   padding: 32px 16px;
