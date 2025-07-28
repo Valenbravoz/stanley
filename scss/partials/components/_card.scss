@@ -1,18 +1,18 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 .container-productos {
     margin: 40px auto;
     padding: 16px;
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex (column, center, center);
 
     .producto-item {
-        background-color: antiquewhite;
+        background-color: rgb(207, 207, 185) ;
         padding: 16px;
-        border: 1px solid black;
+        border: 1px solid variables.$solid-black;
         border-radius: 8px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include mixins.flex (column, space-between, center);
         text-align: center;
         gap: 12px;
         height: 100%;
@@ -29,37 +29,31 @@
 
 .p-productos {
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
+    color: #000000 ;
+    font-size : 24px;
 }
 
 /* productos de las img */
 .img-productos {
-
     height: 100%;
-    width: 200%;
-    object-fit: contain;
-    display: block ;
-    margin: 0 auto;
-    
+    max-width: 100%;
 
 }
 
 .btn-comprar {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: black;
+    color: variables.$color-boton;
+    background-color: #dddcdc;
     padding: 8px 24px;
     border-radius: 8px;
     display: inline-block;
 
     &:hover {
-        color: rgb(129, 134, 99);
+        color: variables.$color-hover;
     }
 }
 
-// carrusel 
-
+// carrusel
 .carousel {
     position: relative;
     width: 100%;
@@ -82,7 +76,7 @@
     }
 }
 
-// productos destacados 
+// productos destacados
 .destacados {
     gap: 32px;
     padding: 32px 16px;
@@ -92,34 +86,35 @@
 }
 
 .destacados .row {
-    display: flex;
-    justify-content: center;
+    @include mixins.flex (center, center, center);
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 32px;
 }
 
 .card-producto {
-    background-color: white;
+    background-color:variables.$color-fondo;
     padding: 16px;
-    border: 1px solid black;
+    border: 1px solid variables.$solid-black;
     border-radius: 8px;
     width: 216px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include mixins.flex (column,center, center );
     text-align: center;
     gap: 8px;
 }
 
 .card-button {
     text-decoration: none;
-    color: black;
+    color: variables.$color-boton;
     padding: 8px 16px;
-    border: 1px solid black;
+    border: 1px solid variables.$solid-black;
     display: inline-block;
     border-radius: 5px;
     margin: 16px;
+
+    &:hover{
+        color: variables.$color-hover;
+    }
 }
 
 .card-producto img {
@@ -137,7 +132,7 @@
 }
 
 .card-producto p {
-    color: rgb(5, 8, 6);
+    color: #000000;
     text-align: center;
     font-size: 16px;
 }

@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 //info de nosotros y terminos y condiciones 
 
 .bloque-nosotros {
@@ -9,7 +11,7 @@
 }
 
 .info-nosotros {
-  background-color: white;
+  background-color: variables.$color-fondo;
   border-radius: 8px;
   padding: 16px;
   width: 90%;
@@ -18,10 +20,7 @@
   text-align: center;
 }
 
-.h1-nosotros {
-  font-size: 80px;
-  color: antiquewhite;
-}
+
 
 .bloque-condiciones {
   display: grid;
@@ -32,7 +31,7 @@
 }
 
 .info-condiciones {
-  background-color: white;
+  background-color: variables.$color-fondo;
   border-radius: 8px;
   padding: 16px;
   width: 90%;

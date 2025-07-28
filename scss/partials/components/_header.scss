@@ -1,3 +1,4 @@
+@use "../utilities/variables";
 .banner {
     height: 120px;
     width: 100%;
@@ -7,21 +8,21 @@
 .navbar-mio {
     background-color: rgb(255, 255, 255);
     padding: 16px 24px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid variables.$solid-black;
 
     .navbar-nav {
 
         margin: 0 auto;
 
         .nav-link-mio {
-            color: black;
+            color: rgb(0, 0, 0);
             text-decoration: none;
             font-size: 18px;
             padding: 8px 16px;
             transition: color 0.3s;
 
             &:hover {
-                color: rgb(150, 150, 150);
+                color: variables.$color-hover;
             }
         }
 

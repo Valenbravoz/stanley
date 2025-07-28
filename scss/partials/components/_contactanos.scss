@@ -1,5 +1,7 @@
+@use "../utilities/mixins";
+
 .h3-redes {
-    color: beige;
+    color: rgb(245, 245, 220);
     text-align: center;
     background-color: black;
     padding: 16px;
@@ -17,9 +19,7 @@
 }
 
 .red {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include mixins.flex (column, center, center);
     text-align: center;
     padding: 24px;
     gap: 16px;

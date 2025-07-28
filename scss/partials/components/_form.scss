@@ -14,16 +14,16 @@
             border: 1px solid #333;
 
             .btn-enviar {
-                background-color: black;
-                color: white;
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
                 padding: 8px 24px;
                 border: none;
                 border-radius: 8px;
                 margin-top: 16px;
 
                 &:hover {
-                    background-color: beige;
-                    color: black;
+                    background-color: rgb(245, 245, 220);
+                    color: rgb(0, 0, 0);
 
                 }
 
