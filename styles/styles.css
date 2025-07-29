@@ -177,13 +177,11 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next {
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
   width: 15%;
 }
 
-.carousel .carousel-control-prev-icon,
-.carousel .carousel-control-next-icon {
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
   filter: invert(1);
   scale: 0.8;
 }
@@ -265,6 +263,7 @@ h1 {
   flex-wrap: wrap;
   column-gap: 32px;
   row-gap: 32px;
+  justify-content: center;
 }
 
 .card-producto {
@@ -272,7 +271,7 @@ h1 {
   padding: 16px;
   border: 1px solid #000000;
   border-radius: 8px;
-  width: 216px;
+  width: 100% px;
   display: flex;
   flex-direction: column;
   justify-content: center;

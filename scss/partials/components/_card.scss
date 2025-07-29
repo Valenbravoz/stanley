@@ -69,12 +69,16 @@
         border-radius: 8px;
     }
 
-    .carousel-control-prev,
+    .carousel-control-prev{
+        @extend %boton-control-carrusel;
+    }
     .carousel-control-next {
         @extend %boton-control-carrusel;
     }
 
-    .carousel-control-prev-icon,
+    .carousel-control-prev-icon{
+        @extend %icono-flecha-carrusel;
+    }
     .carousel-control-next-icon {
         @extend %icono-flecha-carrusel;
     }
@@ -94,6 +98,7 @@
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 32px;
+    justify-content: center;
 }
 
 .card-producto {
@@ -101,7 +106,7 @@
     padding: 16px;
     border: 1px solid variables.$solid-black;
     border-radius: 8px;
-    width: 216px;
+    width: 100%px;
     @include mixins.flex (column, center, center);
     text-align: center;
     gap: 8px;
