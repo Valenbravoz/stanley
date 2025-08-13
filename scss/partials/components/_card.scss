@@ -7,7 +7,7 @@
     padding: 16px;
     @include mixins.flex (column, center, center);
 
-    .producto-item {
+    .producto-item-mio {
         background-color: rgb(207, 207, 185);
         padding: 16px;
         border: 1px solid variables.$solid-black;
@@ -35,12 +35,12 @@
 }
 
 /* productos de las img */
-.img-productos {
+.img-producto {
     display: block;
     object-fit: contain;
+    margin: 0 auto;
     height: 100%;
     max-width: 100%;
-
 }
 
 .btn-comprar {
@@ -56,29 +56,30 @@
     }
 }
 
-// carrusel
+// // // carrusel
 
 
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 100%;
-    overflow: hidden;
 
     .carousel-inner {
         border-radius: 8px;
+        
     }
 
-    .carousel-control-prev{
+    .carousel-control-prev {
         @extend %boton-control-carrusel;
     }
+
     .carousel-control-next {
         @extend %boton-control-carrusel;
     }
 
-    .carousel-control-prev-icon{
+    .carousel-control-prev-icon {
         @extend %icono-flecha-carrusel;
     }
+
     .carousel-control-next-icon {
         @extend %icono-flecha-carrusel;
     }

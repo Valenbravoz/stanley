@@ -178,7 +178,7 @@ h1 {
 }
 
 .carousel .carousel-control-prev, .carousel .carousel-control-next {
-  width: 15%;
+  width: auto;
 }
 
 .carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
@@ -194,7 +194,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.container-productos .producto-item {
+.container-productos .producto-item-mio {
   background-color: rgb(207, 207, 185);
   padding: 16px;
   border: 1px solid #000000;
@@ -221,9 +221,10 @@ h1 {
 }
 
 /* productos de las img */
-.img-productos {
+.img-producto {
   display: block;
   object-fit: contain;
+  margin: 0 auto;
   height: 100%;
   max-width: 100%;
 }
@@ -243,8 +244,6 @@ h1 {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 100%;
-  overflow: hidden;
 }
 .carousel .carousel-inner {
   border-radius: 8px;
