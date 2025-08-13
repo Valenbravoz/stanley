@@ -5,12 +5,18 @@
         max-width: 300px;
     }
 
-    .p-destacados {
-        font-size: 8px;
-    }
+
 
     h1 {
         font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .p-destacados {
+        font-size: 8px;
     }
 
     .p-productos {
@@ -21,14 +27,24 @@
         font-size: 16px;
     }
 
-    h2{
-        font-size: 24px;
-    }
 
-    p{
+    p {
         font-size: 20px;
     }
 
+
+
 }
 
-//@media (min-width: 501px) (max-width:769px)
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .navbar-nav {
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1501px) {
+
+    .navbar-nav {
+        gap: 100px;
+    }
+}
