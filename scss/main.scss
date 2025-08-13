@@ -7,7 +7,6 @@
 @use "./partials/components/general";
 @use "./partials/components/nosotros-condiciones";
 @use "./partials/components/contactanos" ;
-@use "./partials/components/media";
 @use "./partials/components/form" ;
 @use "./partials/components/card";
 @use "./partials/components/footer";
@@ -17,3 +16,4 @@
 @use "./partials/utilities/variables";
 @use "./partials/utilities/mixins" ;
 @use "./partials/utilities/extends";
+@use "./partials/utilities/media";
